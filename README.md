@@ -28,6 +28,7 @@ Image Source: [ You Only Look Once: Unified, Real-Time Object Detection](https:/
   
 <img src="https://user-images.githubusercontent.com/88222317/185396853-058b5ae3-3b34-435d-bd3c-d0d8fa5b313b.png" width="600" height="300" />
 Image Source: [ You Only Look Once: Unified, Real-Time Object Detection](https://pjreddie.com/media/files/papers/yolo_1.pdf)
+ * Mean Average Precision: The Average Precision (AP) is calculated as the area under the Precision-Recall curve for a set of predictions per class. The average of this value taken over all classes called mean Average Precision (mAP) is calculated.
   
 
 
