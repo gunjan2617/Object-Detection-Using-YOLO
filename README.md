@@ -1,4 +1,4 @@
-# Object-Detection-Using-YOLO
+# Object Detection Using YOLO
 In this project, we will use the YOLO algorithm on the PASCAL VOC Dataset to detect real-time objects.
 
 ## Introduction:
