@@ -24,5 +24,11 @@ Image Source: [ You Only Look Once: Unified, Real-Time Object Detection](https:/
   * Object Loss: Mean squared error of the probability that an object is present in the cell or not.
   * No Object Loss: Mean squared error of the probabilty that an object is not present in the cell.
   * Class Loss: Mean squared error of the predictions of the class probabilities of the object.
+  
+  
+<img src="https://user-images.githubusercontent.com/88222317/185396853-058b5ae3-3b34-435d-bd3c-d0d8fa5b313b.png" width="600" height="300" />
+Image Source: [ You Only Look Once: Unified, Real-Time Object Detection](https://pjreddie.com/media/files/papers/yolo_1.pdf)
+  
+
 
 
