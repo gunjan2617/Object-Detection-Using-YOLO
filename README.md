@@ -15,5 +15,6 @@ The recognition and localisation of items in an image that belong to a predeterm
 * **Non Maximal Suppression:** Since multiple cells can contain one object and each of them would predict their bounding boxes for it, NMS threshold is used to suppress those bounding boxes with lower confidence scores.
 * **Model Architecture of YOLO v1:** The detection network has 24 convolutional layers followed by 2 fully connected layers. Alternating 1 × 1 convolutional layers reduce the features space from preceding layers. The size of the input image is 448 x 448 x 3, which eventually comes down to 7 x 7 x 30.
 
+<img src="https://user-images.githubusercontent.com/88222317/185391657-8acd2b08-3622-4a24-a66a-d49f7509321e.png" width="800" height="300" />
 
 
