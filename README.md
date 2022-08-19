@@ -58,17 +58,17 @@ As can be seen, YOLO imposes strong spatial constraints on bounding box predicti
 
 Parameter  | Result
 ------------- | -------------
-Train map | 1e-4
+Train mAP | 1e-4
 Mean Loss | 16
 
 ## Further Work on this Project:
 Currently working on the YOLO v3 implementation of Object Detection on the PASCAL VOC Dataset to train the model to a decent level of accuracy and be able to visualise the output.
 
 ## References:
-* [You Only Look Once: Unified, Real-Time Object Detection]
-* [YOLO v1 from Scratch by Aladdin Persson]
-* [YOLO: Real-Time Object Detection Explained]
-* [Introduction to YOLO Algorithm for Object Detection]
+* [You Only Look Once: Unified, Real-Time Object Detection](https://pjreddie.com/media/files/papers/yolo_1.pdf)
+* [YOLO v1 from Scratch by Aladdin Persson](https://www.youtube.com/watch?app=desktop&v=n9_XyCGr-MI)
+* [YOLO: Real-Time Object Detection Explained](https://www.v7labs.com/blog/yolo-object-detection)
+* [Introduction to YOLO Algorithm for Object Detection](https://www.section.io/engineering-education/introduction-to-yolo-algorithm-for-object-detection/)
 
 
 
