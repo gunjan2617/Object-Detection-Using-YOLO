@@ -31,7 +31,44 @@ Image Source: [ You Only Look Once: Unified, Real-Time Object Detection](https:/
 Image Source: [ You Only Look Once: Unified, Real-Time Object Detection](https://pjreddie.com/media/files/papers/yolo_1.pdf)
 
  * Mean Average Precision: The Average Precision (AP) is calculated as the area under the Precision-Recall curve for a set of predictions per class. The average of this value taken over all classes called mean Average Precision (mAP) is calculated.
-  
+ 
+ ### Libraries used:
+ * PyTorch
+ * NumPy
+*  Matplotlib
+* Pandas
+
+### Dataset used:
+The PASCAL VOC Dataset was downloaded from [Kaggle](https://www.kaggle.com/datasets/734b7bcb7ef13a045cbdd007a3c19874c2586ed0b02b4afc86126e89d00af8d2).
+
+### Parameters used:
+Parameters  | Values
+------------- | -------------
+Learning Rate  | 1e-4
+Batch Size | 16
+Weight Decay  | 5e-4
+Epochs  | 200
+Optimizer  | Adam
+
+### Results:
+
+<img src="" width="600" height="600" />
+
+As can be seen, YOLO imposes strong spatial constraints on bounding box predictions since each grid cell only predicts two boxes and can only have one class. This spatial constraint limits the number of nearby objects that the model can predict. It struggles with small objects that appear in groups, such as flocks of birds or crowds of people.
+
+Parameter  | Result
+------------- | -------------
+Train map | 1e-4
+Mean Loss | 16
+
+## Further Work on this Project:
+Currently working on the YOLO v3 implementation of Object Detection on the PASCAL VOC Dataset to train the model to a decent level of accuracy and be able to visualise the output.
+
+## References:
+* [You Only Look Once: Unified, Real-Time Object Detection]
+* [YOLO v1 from Scratch by Aladdin Persson]
+* [YOLO: Real-Time Object Detection Explained]
+* [Introduction to YOLO Algorithm for Object Detection]
 
 
 
