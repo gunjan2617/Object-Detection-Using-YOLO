@@ -52,7 +52,7 @@ Optimizer  | Adam
 
 ### Results:
 
-<img src="" width="600" height="600" />
+<img src="https://user-images.githubusercontent.com/88222317/185518293-bb237303-f251-4e35-b8f7-9170994983f9.png" width="600" height="600" />
 
 As can be seen, YOLO imposes strong spatial constraints on bounding box predictions since each grid cell only predicts two boxes and can only have one class. This spatial constraint limits the number of nearby objects that the model can predict. It struggles with small objects that appear in groups, such as flocks of birds or crowds of people.
 
