@@ -58,8 +58,8 @@ As can be seen, YOLO imposes strong spatial constraints on bounding box predicti
 
 Parameter  | Result
 ------------- | -------------
-Train mAP | 1e-4
-Mean Loss | 16
+Train mAP | 0.999009
+Mean Loss | 6.133301
 
 ## Further Work on this Project:
 Currently working on the YOLO v3 implementation of Object Detection on the PASCAL VOC Dataset to train the model to a decent level of accuracy and be able to visualise the output.
